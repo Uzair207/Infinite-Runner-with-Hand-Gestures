@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5900744748913675096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5900744748913675110}
+  - component: {fileID: 5900744748913675111}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5900744748913675110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900744748913675096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5900744748913675111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900744748913675096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61466bbac2472c645b5030cfdee04e0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainGameTheme
+    clip: {fileID: 8300000, guid: b341b9410b3c5274e8b15199f3b95fb5, type: 3}
+    volume: 0.2
+    loop: 1
+    src: {fileID: 0}
+  - name: CoinTheme
+    clip: {fileID: 8300000, guid: 531607756be6173469b209564e4b1830, type: 3}
+    volume: 0.3
+    loop: 0
+    src: {fileID: 0}
+  - name: StartMenuTheme
+    clip: {fileID: 8300000, guid: 0ad983d0c3179aa4697429f70e512024, type: 3}
+    volume: 1
+    loop: 1
+    src: {fileID: 0}
+  - name: Slide
+    clip: {fileID: 8300000, guid: febd5a5a8b245774fbfa9f0bef51e0b6, type: 3}
+    volume: 0.3
+    loop: 0
+    src: {fileID: 0}
+  - name: Collision
+    clip: {fileID: 8300000, guid: 9ed08397b3fef21418662ed63130d301, type: 3}
+    volume: 0.3
+    loop: 0
+    src: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 603f051bdda9f2e4e85ca5ebcececfdf, type: 3}
+    volume: 1
+    loop: 0
+    src: {fileID: 0}
+  - name: CountDownSound
+    clip: {fileID: 8300000, guid: c34d52102e967794e8a6b1228c95a862, type: 3}
+    volume: 0.3
+    loop: 0
+    src: {fileID: 0}
+  - name: JumpSound
+    clip: {fileID: 8300000, guid: d55ca01cc3d7fda4e8aa39d2c0cea154, type: 3}
+    volume: 0.3
+    loop: 0
+    src: {fileID: 0}
+  - name: GameOverTheme
+    clip: {fileID: 8300000, guid: 5a9cee4bc269a9340aec884330316983, type: 3}
+    volume: 1
+    loop: 0
+    src: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: a0240020dd8fd1549b2f4b8086e917d7, type: 3}
+    volume: 0.3
+    loop: 0
+    src: {fileID: 0}
+  - name: ButtonClickSound
+    clip: {fileID: 8300000, guid: 89acdb637cc78c5418652a27c65514ba, type: 3}
+    volume: 1
+    loop: 0
+    src: {fileID: 0}
